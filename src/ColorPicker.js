@@ -32,7 +32,7 @@ const ColorPicker = ({ colors }) => {
         </div>
       )}
       {selectedColor && (
-        <div className="selected-color">Selected Color: {selectedColor}</div>
+        <div className="selected-color"> {selectedColor}</div>
       )}
     </div>
   );
